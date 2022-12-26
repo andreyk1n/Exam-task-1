@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* fonts and colors */
+
+.title {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+/* sidebar */
+
+.sidebar {
+
+}
+
+.sidebar-nav {
+
+}
+
+.sidebar-nav-item {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sidebar-nav-item:hover {
+    background-color: #c32055;
+    cursor: ;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+
+.dashboard-icon {
+    font-size: 20px;
+}

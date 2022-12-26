@@ -170,3 +170,27 @@ html {
     align-items: center;
     margin-top: -30px;
 }
+
+.issues-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #264d96;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    font-size: 40px;
+    color: white;
+}
+
+.followers-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #c32055;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+    font-size: 40px;
+    color: white;
+}

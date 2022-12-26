@@ -125,9 +125,11 @@ html {
 }
 
 .first-type-card-row1 {
+    width: 80%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+
 }
 
 .first-type-text {
@@ -152,4 +154,19 @@ html {
 .get-more a {
     color: gray;
     text-decoration: none;
+}
+
+.revenue-icon {
+    font-size: 40px;
+    color: white;
+}
+
+.revenue-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #d99d29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
 }

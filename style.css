@@ -108,6 +108,7 @@ html {
 .first-type-card {
     border: 1px solid black;
     width: 300px;
+    /* тимчасово */
     height: 150px; 
     display: flex;
     flex-direction: column;
@@ -209,11 +210,13 @@ html {
 .second-type-card {
     border: 1px solid red;
     width: 460px;
+    /* тимчасово */
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
     align-items: center;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.58);
 
 }
 
@@ -257,4 +260,68 @@ html {
     align-items: flex-start;
     justify-content: flex-start;
     gap: 10px;
+}
+
+/* потім як робити через грід треба замінити всі ширини на % */
+
+/* third-type-card */
+
+.third-type-card {
+    width: 460px;
+    border: 1px solid pink;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.58);
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-type-card-row1 {
+    margin-top: -20px;
+    width: 420px;
+    background-color: #d99d29;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 8px;
+}
+
+.third-type-card-header-item a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition-duration: 0.5s;
+}
+
+.third-type-card-header-item a:hover {
+    background-color: #b57f14;
+}
+
+.third-type-card-row2 {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.third-type-card-row2-item {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.third-type-card-row2-item input {
+    transform: scale(1.4);
+}
+
+.third-type-card-row2-item a:hover {
+    transform: scale(1.2);
 }

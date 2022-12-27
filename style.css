@@ -18,6 +18,10 @@ html {
     font-size: 22px;
 }
 
+.muted {
+    color: gray;
+}
+
 /* wrapper */
 
 .wrapper {
@@ -50,7 +54,7 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 5px;
 }
 
 .sidebar-nav-item {
@@ -63,23 +67,21 @@ html {
     transition-duration: .5s;
 }
 
-.sidebar-nav-item:hover {
-    background-color: #c32055;
-    cursor: pointer;
-    color: white;
-}
-
 .nav-link{
-    text-align: center;
+    padding-left: 30px;
+    text-align: left;
     width: 100%;
     text-decoration: none;
     color: gray;
     font-size: 20px;
-    transition-duration: .5s;
+    transition-duration: 1s;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .nav-link:hover {
     color: white;
+    background-color: #c32055;
 }
 
 .dashboard-icon {
@@ -100,6 +102,8 @@ html {
     padding-left: 50px;
     padding-top: 30px;
 }
+
+/* first-type-card */
 
 .first-type-card {
     border: 1px solid black;
@@ -198,4 +202,59 @@ html {
     margin-top: -30px;
     font-size: 40px;
     color: white;
+}
+
+/* second-type-card */
+
+.second-type-card {
+    border: 1px solid red;
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.second-type-card img {
+    width: 400px;
+    height: 150px;
+
+}
+
+.second-type-card-row1-card1 {
+    width: 420px;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #418d00;
+}
+
+.second-type-card-row1-card2 {
+    width: 420px;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d99d29;
+}
+
+.second-type-card-row1-card3 {
+    width: 420px;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #264d96;
+}
+
+.second-type-card-row2 {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
 }

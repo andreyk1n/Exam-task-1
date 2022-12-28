@@ -113,7 +113,7 @@ html {
     position: fixed;
     width: 20vw;
     height: 100vh;
-    background-color: #f6f6f6;
+    background-color: #eaeaea;
     box-shadow: 5px 0px 5px 0px rgba(0,0,0,0.75);
 }
 
@@ -177,7 +177,7 @@ html {
     margin-left: 20vw;
     position: static;
     width: 80vw;
-    background-color: #eaeaea;
+    /* background-color: #eaeaea; */
     overflow: hidden;
 }
 
@@ -675,6 +675,23 @@ footer {
         gap: 20px;
         padding-bottom: 30px;
     }
+
+    .nav-link {
+        padding-left: 20px;
+        text-align: left;
+        width: 100%;
+        text-decoration: none;
+        color: gray;
+        font-size: 20px;
+        transition-duration: 1s;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .active {
+        color: whire;
+        background-color: #c32055;
+    }
 }
 
 @media (min-width:650px) and (max-width:800px) {
@@ -695,7 +712,7 @@ footer {
         margin-top: 0;
         position: static;
         width: 100%;
-        background-color: #eaeaea;
+        /* background-color: #eaeaea; */
         overflow: hidden;
         margin-left: 0;
     }
@@ -793,7 +810,7 @@ footer {
         margin-top: 0;
         position: static;
         width: 100%;
-        background-color: #eaeaea;
+        /* background-color: #eaeaea; */
         overflow: hidden;
         margin-left: 0;
     }
@@ -895,7 +912,7 @@ footer {
         margin-top: 0;
         position: static;
         width: 100%;
-        background-color: #eaeaea;
+        /* background-color: #eaeaea; */
         overflow: hidden;
         margin-left: 0;
     }

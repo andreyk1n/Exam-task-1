@@ -195,7 +195,7 @@ html {
     flex-direction: column;
     justify-content: space-around;
     align-items: center; 
-    background-color: #f6f6f6;
+    background-color: white;
     box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.58);
 }
 
@@ -578,7 +578,7 @@ footer {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        background-color: #f6f6f6;
+        background-color: white;
         box-shadow: 5px 5px 5px 0px rgb(0 0 0 / 58%);
     }
 
@@ -733,7 +733,7 @@ footer {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        background-color: #f6f6f6;
+        background-color: white;
         box-shadow: 5px 5px 5px 0px rgb(0 0 0 / 58%);
     }
 
@@ -842,7 +842,7 @@ footer {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        background-color: #f6f6f6;
+        background-color: white;
         box-shadow: 5px 5px 5px 0px rgb(0 0 0 / 58%);
     }
 
